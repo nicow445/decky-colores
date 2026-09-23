@@ -1,5 +1,66 @@
 # Changelog
 
+## [0.30.0](https://github.com/nicow445/decky-colores/compare/decky-colores-v0.29.1...decky-colores-v0.30.0) (2026-09-23)
+
+
+### Features
+
+* add Brazilian Portuguese localization ([78e9c15](https://github.com/nicow445/decky-colores/commit/78e9c15e580fc721e2f3b22381c21fa272ccf6cc))
+* add Brazilian Portuguese localization ([36a6f89](https://github.com/nicow445/decky-colores/commit/36a6f893f2d94937947b071e81d88dfdbf4a86a4))
+* add capability-first RGB device discovery ([c0653f8](https://github.com/nicow445/decky-colores/commit/c0653f8831167d9c9147cec5b8a659b9c2c7d6ff))
+* add feature request reports ([8638d81](https://github.com/nicow445/decky-colores/commit/8638d8103a19d97262c8d8cf681d64e1c2d5e5de))
+* add feature request reports ([cca976d](https://github.com/nicow445/decky-colores/commit/cca976d2f303cddcbc14ef209bee3c59d1d396ef))
+* add German localization ([dbdaeb7](https://github.com/nicow445/decky-colores/commit/dbdaeb7bb9e36bfa6c00e0242b5d9c042132759b))
+* add German localization ([62bdb21](https://github.com/nicow445/decky-colores/commit/62bdb213a1246a5e099c90ad34ab0777c3ce42a9))
+* add per-app lighting profiles ([dc63da8](https://github.com/nicow445/decky-colores/commit/dc63da81c99713a0ca830bc60691360061cb6d95))
+* **android:** overhaul app and add hardware learning ([f6535f8](https://github.com/nicow445/decky-colores/commit/f6535f886524e51ecd9163f6cf037dad9dcf3858))
+* auto-discover compatible RGB devices ([91855a5](https://github.com/nicow445/decky-colores/commit/91855a597985157691b82d42e7fa8bfdd8cb4feb))
+* bring advanced lighting modes to Android ([230a8f9](https://github.com/nicow445/decky-colores/commit/230a8f94f5abc531a3f760952d789681e13e58fb))
+* bring advanced lighting modes to Android ([83b5c06](https://github.com/nicow445/decky-colores/commit/83b5c06c1be1a4465d0041fdf3f5f6e307debd65))
+* customize sensor scales ([1d73b23](https://github.com/nicow445/decky-colores/commit/1d73b2348646d0211a86f8fb7188a3b47aa89c8e))
+* customize sensor scales ([139e9b8](https://github.com/nicow445/decky-colores/commit/139e9b8d0dccbb088c3f47c206a29f4427ec7d62))
+* **i18n:** add Italian localization ([81cd20a](https://github.com/nicow445/decky-colores/commit/81cd20ae1e2ebc664ccb266bcc7f80183b93b4bc))
+* **i18n:** add Italian localization ([2e1260a](https://github.com/nicow445/decky-colores/commit/2e1260ace44238e70a3aff819a76b99127ca028b))
+* OneXPlayer OneXFly Apex / F1 Pro joystick-ring LEDs ([be64221](https://github.com/nicow445/decky-colores/commit/be642215130499f643e8a1d5972f11a64535f15d))
+* **oxp:** add OxpLedsDevice with enabled/monocolor latch ([fd6f39a](https://github.com/nicow445/decky-colores/commit/fd6f39af84999c70a3ed4c1d5292dd20db884c9e))
+* **oxp:** OneXPlayer profile for OneXFly Apex and F1 Pro joystick rings ([755b41f](https://github.com/nicow445/decky-colores/commit/755b41f5509edd2b7e3f9bbe75e79fb1a4dbbd7d))
+* **oxp:** raw-HID fallback for OneXFly/Apex without the hid-oxp node ([1742034](https://github.com/nicow445/decky-colores/commit/1742034b289811a2a22f39222360dd199de31dec))
+* refresh Decky interface ([38d25d2](https://github.com/nicow445/decky-colores/commit/38d25d2e01f73afde08df0766387c43b677f1621))
+* refresh Decky interface ([1718570](https://github.com/nicow445/decky-colores/commit/17185702e9a18ee70c031f83afa894434ea1a906))
+* **report:** snapshot LED latch attrs (enabled/effect/speed) ([0a588a9](https://github.com/nicow445/decky-colores/commit/0a588a9ad6b04a37cb10bdab7adf319a2693cabe))
+
+
+### Bug Fixes
+
+* **ambilight:** process the latest captured frame without backlog ([a23b181](https://github.com/nicow445/decky-colores/commit/a23b18114763c2276475e1d5f301b4c29ed46158))
+* **ambilight:** process the latest captured frame without backlog ([c44975d](https://github.com/nicow445/decky-colores/commit/c44975dc5881cf389c7573e9671877abd729493d))
+* avoid report module collision on Anatase ([7379d37](https://github.com/nicow445/decky-colores/commit/7379d37ea2a871bbb2402c9ff15212ccf3ffc905))
+* avoid report module collision on Anatase ([3050094](https://github.com/nicow445/decky-colores/commit/3050094ba55e4ef6de058920ddb71186c0f5b258))
+* correct OneXPlayer Apex RGB output ([f2e32ce](https://github.com/nicow445/decky-colores/commit/f2e32cec116860f939c1f66480e3561db07eed97))
+* correct OneXPlayer Apex RGB output ([84091d3](https://github.com/nicow445/decky-colores/commit/84091d3c3292c2b07177346b53459758aee0efea))
+* format sensor readings ([0300ec9](https://github.com/nicow445/decky-colores/commit/0300ec9c6ee74959d46dcef5b4aa7cf81a6e5763))
+* harden OneXPlayer Apex RGB control ([55f2792](https://github.com/nicow445/decky-colores/commit/55f279254ee2d85f5f297106b84714d4413e284d))
+* harden OneXPlayer Apex RGB control ([aeb842b](https://github.com/nicow445/decky-colores/commit/aeb842bedeb8519553c80c8635be42954c4e5964))
+* harden OneXPlayer LED writes ([12762c8](https://github.com/nicow445/decky-colores/commit/12762c8af5028767523275cda0b110b15731a403))
+* harden RGB lifecycle and diagnostics ([d593d06](https://github.com/nicow445/decky-colores/commit/d593d06d28d784ecd89efc4e0bb2fe6988166b40))
+* harden RGB lifecycle, brightness and diagnostics ([0019d47](https://github.com/nicow445/decky-colores/commit/0019d4731be4f58004a0d593fa19ee198cf4b299))
+* **i18n:** address Italian review feedback ([a59b304](https://github.com/nicow445/decky-colores/commit/a59b30429fd13cf4add19a8e3b17c6dd1fa0d2a0))
+* **i18n:** clarify Italian startup copy ([fb6bce6](https://github.com/nicow445/decky-colores/commit/fb6bce6c652f124000c6c997dd290018e96b50ef))
+* **i18n:** refine Italian localization ([6767af0](https://github.com/nicow445/decky-colores/commit/6767af060c4b5d32db04e5874dff78bd5cd3bce0))
+* improve global Ambilight controls ([fb78fe1](https://github.com/nicow445/decky-colores/commit/fb78fe1edca6a7ee4f5deb610b976bc1ebac70ef))
+* improve global Ambilight sampling and vividness ([0421032](https://github.com/nicow445/decky-colores/commit/042103240131daafede6e3c0bb6bfa09be3f6eea))
+* improve tab navigation and audio VU ([0458670](https://github.com/nicow445/decky-colores/commit/0458670caa2635137eb1ce2e886aab2cbd9f1764))
+* improve tab navigation and audio VU ([ab4ce87](https://github.com/nicow445/decky-colores/commit/ab4ce87b8631a0c4b40680eca8585392549a990d))
+* **oxp:** match HID by VID+usage and drop unused effect scaffolding per review ([e8a450f](https://github.com/nicow445/decky-colores/commit/e8a450f361ffd60a32f7adcd4775e67f6c9e102d))
+* polish Brazilian Portuguese copy ([b2858cc](https://github.com/nicow445/decky-colores/commit/b2858cce5afb254c4b8cb96cb2d6982789004635))
+* preserve vitest version in release ([f6d52c1](https://github.com/nicow445/decky-colores/commit/f6d52c108a7662fe8f0c72249120155efd24d907))
+* recover handheld lighting across suspend and drivers ([756d432](https://github.com/nicow445/decky-colores/commit/756d432ca854b0939e2df5d64ca0fb913dcdd767))
+* recover handheld lighting across suspend and drivers ([5d3a2c0](https://github.com/nicow445/decky-colores/commit/5d3a2c00c2ebb0a0d1eb5aada60c0c113fc0bca3))
+* resolve validated hardware control issues ([a6865eb](https://github.com/nicow445/decky-colores/commit/a6865eb17ada1e8ccf2c48a1ba6355500d894c4a))
+* resolve validated hardware control issues ([f7c8282](https://github.com/nicow445/decky-colores/commit/f7c828226fb65dc543a1a7622599fcec53e63e48))
+* stop ambilight capture before suspend ([2b54b84](https://github.com/nicow445/decky-colores/commit/2b54b841460e292c83abad9893aa9a36319f14d3))
+* stop Ambilight capture before suspend ([93164de](https://github.com/nicow445/decky-colores/commit/93164de9ed671a3f2152971ede7a8323d56301ed))
+
 ## [0.29.1](https://github.com/Hooandee/decky-colores/compare/decky-colores-v0.29.0...decky-colores-v0.29.1) (2026-09-22)
 
 
